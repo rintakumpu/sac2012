@@ -4,7 +4,6 @@ Author: Lasse Rintakumpu
 Version: 1.0
 */
 
-
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
 
@@ -61,7 +60,7 @@ DESCRIPTION:
 */
 body {
 	
-	font-family: “Trebuchet MS”, “Lucida Sans Unicode”, “Lucida Grande”,” Lucida Sans”, Arial, sans-serif;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;	
 	color: white;
 	background: #2B2B2B;
 	font-size: 14px;
@@ -136,13 +135,6 @@ header aside p {
 	color: #ddd
 }
 
-
-header section {
-	margin: 18px 0 0 10px;
-}
-header section img {
-	position: absolute;
-}
 
 header h1 { 
 	text-align: left; 
@@ -331,6 +323,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d6e6f', end
 }
 
 /* Sidebar */
+#wrapper .twtr-widget {
+	margin-top: -32px;
+}
+#wrapper .twtr-timeline {
+	height: 298px ! important;
+}	
+#wrapper .twtr-widget img[alt="profile"]{
+	position: absolute;
+}
+
 #wrapper > aside {
 	border-top: 1px solid #ccc;
 	padding-top: 42px;
@@ -367,14 +369,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d6e6f', end
 
 #wrapper > aside > section:first-child {
 	width: 235px;
+	border-bottom: none;
+	
 }
+
 #wrapper > aside > section:first-child p {
 	padding: 18px 10px 10px 11px;
-}
-#wrapper > aside > section:first-child img {
-	float: left;
-	margin-top: 4px;
-	padding: 0 18px 8px 0;
 }
 #wrapper > aside > section:first-child h2 {
 	width: 227px;

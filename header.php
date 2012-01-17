@@ -91,39 +91,6 @@
 
 		</nav>
 
-		<section>
-			
-			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 3,
-  interval: 30000,
-  width: 238,
-  height: 300,
-  theme: {
-    shell: {
-      background: '#808081',
-      color: '#ffffff'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#000000',
-      links: '#f68139'
-    }
-  },
-  features: {
-    scrollbar: false,
-    loop: false,
-    live: false,
-    behavior: 'all'
-  }
-}).render().setUser('agilefinland').start();
-</script>
-
-		</section>
-			
 		<aside>
 			
 			<p>8th of March 2012 | Marina Congress Center | Helsinki, Finland.</p>

@@ -4,6 +4,17 @@
  */
  
 ?>
+<aside>
+	<section>
+	
+		<h2>Agile Finland</h2>
+			
+		<p><a href="http://www.agilefinland.com/" title="Agile Finland ry"><img src="http://scan-agile.org/files/2011/11/agile_finland_logo_tr1-e1321384782501.png" alt="Agile Finland"/></a>This conference is organized by <a href="http://www.agilefinland.com/">Agile Finland ry</a>, which is non-profit association of software professionals. The purpose of Agile Finland is to raise the public's awareness of <a href="http://agilemanifesto.org/">Agile Software Development</a>, advance the use of Agile and increase its members' Agile knowhow.</p>
+
+	</section>
+
+</aside>
+	
 </div></div> <!-- Close #wrapper -->
 	<footer>
 		
