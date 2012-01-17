@@ -327,7 +327,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d6e6f', end
 	margin-top: -32px;
 }
 #wrapper .twtr-timeline {
-	height: 298px ! important;
+	height: 296px ! important;
 }	
 #wrapper .twtr-widget img[alt="profile"]{
 	position: absolute;
@@ -420,14 +420,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d6e6f', end
 
 /* Agile Finland */
 #wrapper > aside ~ aside {
-	width: 825px;	
-	margin: -10px 0 17px 9px;
+	width: 822px;	
+	margin: 0 0 17px 11px;
 	padding: 0;
 	height: auto;
 	border: none;
 }
 #wrapper > aside ~ aside section:first-child {
-	width: 825px;	
+	width: 823px;	
 	height: auto;
 	border: 1px solid #ccc;
 	border-radius: 3px;
