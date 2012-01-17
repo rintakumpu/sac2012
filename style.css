@@ -436,7 +436,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d6e6f', end
 }
 #wrapper > aside ~ aside section:first-child p:first-child {
 	float: left;
-	display: none;
+	padding: 28px 65px 20px 40px;
 }
 #wrapper > aside ~ aside section:first-child p {
 	margin: 0 0 5px 0;
