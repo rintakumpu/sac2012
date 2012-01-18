@@ -95,8 +95,6 @@
 			
 			<p>8th of March 2012 | Marina Congress Center | Helsinki, Finland.</p>
 			
-			<?php get_search_form(); ?>
-			
 		</aside>
 
 	</header>
