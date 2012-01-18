@@ -14,9 +14,7 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
-
+<section>
 <?php
 	/* Queue the first post, that way we know
 	 * what date we're dealing with (if that is the case).
@@ -28,7 +26,7 @@ get_header(); ?>
 		the_post();
 ?>
 
-			<h1 class="page-title">
+			<h2 class="page-title">
 <?php if ( is_day() ) : ?>
 				<?php printf( __( 'Daily Archives: <span>%s</span>', 'twentyten' ), get_the_date() ); ?>
 <?php elseif ( is_month() ) : ?>
@@ -38,7 +36,7 @@ get_header(); ?>
 <?php else : ?>
 				<?php _e( 'Blog Archives', 'twentyten' ); ?>
 <?php endif; ?>
-			</h1>
+			</h2>
 
 <?php
 	/* Since we called the_post() above, we need to
@@ -54,8 +52,7 @@ get_header(); ?>
 	 get_template_part( 'loop', 'archive' );
 ?>
 
-			</div><!-- #content -->
-		</div><!-- #container -->
+</section>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
