@@ -73,7 +73,7 @@
 		<hgroup>
 
 			<h1>
-				<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="wp-content/themes/scanagile/images/scan_agile_2012_gray.png" alt="ScanAgile2012 logo" /></a>
+				<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri();?>/images/scan_agile_2012_gray.png" alt="ScanAgile2012 logo" /></a>
 				<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<?php bloginfo( 'name' ); ?>
 				</a>
