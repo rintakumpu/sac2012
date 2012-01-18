@@ -9,11 +9,9 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
-
+<section>
 <?php if ( have_posts() ) : ?>
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'twentyten' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+				<h2 class="page-title"><?php printf( __( 'Search Results for: %s', 'twentyten' ), '<span>' . get_search_query() . '</span>' ); ?></h2>
 				<?php
 				/* Run the loop for the search to output the results.
 				 * If you want to overload this in a child theme then include a file
@@ -30,8 +28,7 @@ get_header(); ?>
 					</div><!-- .entry-content -->
 				</div><!-- #post-0 -->
 <?php endif; ?>
-			</div><!-- #content -->
-		</div><!-- #container -->
+</section>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
