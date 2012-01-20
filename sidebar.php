@@ -34,7 +34,7 @@ new TWTR.Widget({
     live: false,
     behavior: 'all'
   }
-}).render().setUser('agilefinland').start();
+}).render().setUser('scanagile').start();
 </script>
 
 		</section>
