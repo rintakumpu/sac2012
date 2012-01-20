@@ -34,7 +34,7 @@ new TWTR.Widget({
     live: false,
     behavior: 'all'
   }
-}).render().setUser('agilefinland').start();
+}).render().setUser('scanagile').start();
 </script>
 
 		</section>
@@ -50,13 +50,15 @@ new TWTR.Widget({
 			</ul>
 		</section>
 		
-		<section>	
-		<h2>Gold sponsors</h2>	
+		<section>
+<h2>Gold sponsors & Media Partners</h2>	
 			
 			<ul>
 				<li><a href="http://comptel.com" title="Comptel"><img src="http://scan-agile.wp.agile.fi/files/2011/11/comptel_logo_black_transparency.gif" alt="Comptel"/></a></li>
 				<li><a href="http://www.houston-inc.com" title="Houston Inc."><img src="http://scan-agile.wp.agile.fi/files/2011/11/Houston_logo_100_100.png" alt="Houston Inc."/></a></li>
-			</ul>
-		</section>
+                                <li><a href="http://www.methodsandtools.com/"><img src="http://scan-agile.wp.agile.fi/files/2012/01/MT-Logo-120x20.gif"/></a></li>
+                        </ul>
+		</section>	
+
 	
 </aside>	
