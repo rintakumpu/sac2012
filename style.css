@@ -343,7 +343,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d6e6f', end
 	padding-top: 42px;
 	clear: both;
 	display: inline-block;
-	width: 828px;
+	width: auto;
 	margin: 0 0 10px 10px;
 	}
 
@@ -375,6 +375,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d6e6f', end
 #wrapper > aside > section:first-child {
 	width: 235px;
 	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	margin-right: 22px;
 	
 }
 
