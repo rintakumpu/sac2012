@@ -477,16 +477,29 @@ footer small a, footer small {
 Classes: coffee reg words sc mgmt human ws lean break lunch */
 
 table.program {
-  width:60%;
+  width:100%;
   border-collapse:collapse; 
 }
 
 th, tr, td {
   border: 2px solid white;
+  border: 1px solid #ccc;
 }
 
 th {
-  background-color:#FFC373;
+  color: white;
+  vertical-align: middle;
+  border: 1px solid #666;
+
+  background: rgb(51,51,51); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(51,51,51,1) 0%, rgba(51,51,51,1) 92%, rgba(43,43,43,1) 95%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(51,51,51,1)), color-stop(92%,rgba(51,51,51,1)), color-stop(95%,rgba(43,43,43,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(51,51,51,1) 0%,rgba(51,51,51,1) 92%,rgba(43,43,43,1) 95%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(51,51,51,1) 0%,rgba(51,51,51,1) 92%,rgba(43,43,43,1) 95%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(51,51,51,1) 0%,rgba(51,51,51,1) 92%,rgba(43,43,43,1) 95%); /* IE10+ */
+background: linear-gradient(top,  rgba(51,51,51,1) 0%,rgba(51,51,51,1) 92%,rgba(43,43,43,1) 95%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#2b2b2b',GradientType=0 ); /* IE6-9 */
+
 }
 
 tr {
@@ -496,42 +509,47 @@ tr {
 td {
   padding:5px;
   text-align:center;
-  vertical-align:center;
-}
+ }
 
 .sc {
-  background-color:#ff9200;
+  
 }
 
 .time {
-  background-color:#FFC373;
+  background-color:#d7d7d7;
+  border: 1px solid #b0b0b0;
 }
 
 .words {
-  background-color:#a67c00;
+  
 }
 
 .break {
-  background-color:#ffcf40;
+  vertical-align: middle;
   font-weight: bold;
+  background-color:white;
 }
 
-.mgmt {
-  background-color:#ff7640;
-}
-
-.human {
-  background-color:#ff9b73;
+.mgmt, .human {
+  background: white;
 }
 
 .lean {
-  background-color:#BF5930;
+  background: white;
 }
 
 .empty {
-  background-color:#ffcf40;
+  background: #e8e8e8;
 }
 
 .ws {
-  background-color:#BF9B30;
+  background: white;
+}
+
+@media print {
+	td, th {
+		background-color: white;
+		color: black;
+		border: 1px solid black ! important;
+	}
 }
