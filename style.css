@@ -472,3 +472,66 @@ footer small {
 footer small a, footer small {
 	color: #999;	
 }
+
+/* Tables (viz. program)
+Classes: coffee reg words sc mgmt human ws lean break lunch */
+
+table.program {
+  width:60%;
+  border-collapse:collapse; 
+}
+
+th, tr, td {
+  border: 2px solid white;
+}
+
+th {
+  background-color:#FFC373;
+}
+
+tr {
+  height: 30px;
+}
+
+td {
+  padding:5px;
+  text-align:center;
+  vertical-align:center;
+}
+
+.sc {
+  background-color:#ff9200;
+}
+
+.time {
+  background-color:#FFC373;
+}
+
+.words {
+  background-color:#a67c00;
+}
+
+.break {
+  background-color:#ffcf40;
+  font-weight: bold;
+}
+
+.mgmt {
+  background-color:#ff7640;
+}
+
+.human {
+  background-color:#ff9b73;
+}
+
+.lean {
+  background-color:#BF5930;
+}
+
+.empty {
+  background-color:#ffcf40;
+}
+
+.ws {
+  background-color:#BF9B30;
+}
